@@ -33,3 +33,6 @@ if (isset($_POST['nombre']) || isset($_POST['idiomas'])) {
 //Get
 // $nombre2 = $_GET['nombre2'];
 // echo 'Hola ' . $nombre2;
+
+//Verificar que el formulario se ha enviado
+//if ($_SERVER["REQUEST_METHOD"] == "POST") 
