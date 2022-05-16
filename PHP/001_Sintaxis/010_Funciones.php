@@ -1,5 +1,4 @@
 <?php
-
 /*
         Funciones Predefinidas:
 
@@ -20,7 +19,7 @@ function suma($num1, $num2)
 }
 
 print(suma(4, 6));
-
+echo '<br>';
 //Paso de parámetros por referencia
 
 $texto = "Texto Original";
@@ -32,13 +31,36 @@ function referencia(&$texto)
 
 echo " Resultado  " . $texto;
 referencia($texto);
+echo '<br>';
 echo " Resultado  " . $texto;
 
-
+echo '<br>';
 //Funciones anónimas
 
-$saludo = function(){
+$saludo = function () {
     print("Holaaaaaa");
 };
 
 $saludo();
+
+echo '<br>';
+//Fn flecha
+
+$mult = fn ($a, $b) => $a * $b;
+
+echo $mult(4, 4);
+
+echo '<br>';
+
+//Ejemplo función con return de tipo string
+function authUsuario(bool $autenticado): ?string
+{
+    if ($autenticado) {
+        return "Esta autenticado";
+    } else {
+        return null;
+    }
+}
+
+
+echo authUsuario(false);

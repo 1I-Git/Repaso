@@ -1,6 +1,4 @@
-<?php 
-
-//Json_decode
+<?php
 
 $miObj = new stdClass();
 
@@ -12,9 +10,9 @@ $miObj->tel = 654789321;
 
 $encode = json_encode($miObj);
 //Convertir a Array
-$resultado = json_decode($encode,true);
+$resultado = json_decode($encode, true);
 
-foreach ($resultado as $key ) {
+foreach ($resultado as $key) {
     print($key);
-    print("/");
+    echo '<br>';
 }
