@@ -1,0 +1,45 @@
+#yoyo {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background-color: #4700d8;
+  border-radius: 50%;
+  position: relative;
+  animation-duration: 3s;
+  animation-name: rebotar;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* @keyframes rebotar {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+} */
+
+@keyframes rebotar {
+  0% {
+    margin-top: 0%;
+  }
+
+  25% {
+    background-color: #9900f0;
+  }
+
+  50% {
+    background-color: #F900BF;
+  }
+
+  75% {
+    background-color: #FF85B3;
+  }
+
+  100% {
+    margin-top: 85%;
+    background-color: #FF85B3;
+  }
+}
