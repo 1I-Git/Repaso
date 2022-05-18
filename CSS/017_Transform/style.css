@@ -1,0 +1,45 @@
+#matrix {
+  width: 150px;
+  height: 150px;
+  background-color: teal;
+  color: snow;
+
+  -webkit-transform: matrix(1, -0.2, 0, 1, 0, 0);
+  -o-transform: matrix(1, -0.2, 0, 1, 0, 0);
+  transform: matrix(1, -0.2, 0, 1, 0, 0);
+}
+
+#traslate{
+    width: 150px;
+    height: 150px;
+    background-color: thistle;
+    color: snow;
+    transform: translate(120px,10px);  
+}
+
+#scale{
+    width: 150px;
+    height: 150px;
+    background-color: turquoise;
+    color: snow;
+    transform: scale(2, 0.5); 
+}
+
+#rotate{
+    width: 150px;
+    height: 150px;
+    background-color: tan;
+    color: snow;
+    transform: rotate(0.2turn);  
+}
+
+#skew{
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+    color: snow;
+    transform: skew(30deg, 20deg); 
+}
+
+
+
