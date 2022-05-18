@@ -1,0 +1,18 @@
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle(50%);
+  shape-margin: 10px;
+}
+
+.wrapper::before{
+  content: "";
+  height: 250px;
+  width: 250px;
+  display: block;
+  float: left;
+  border-radius: 50%;
+  shape-outside: circle(50%);
+}
