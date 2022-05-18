@@ -1,0 +1,25 @@
+:root{
+  --color-encabezado: red;
+  --color-parrafo:blue;
+
+  --font-encabezado:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-parrafo:Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper{
+  width:600px;
+  height: 500px;
+  margin: auto;
+  background-color: whitesmoke;
+}
+h2{
+  text-align: center;
+  color: var(--color-encabezado);
+  font-family: var(--font-encabezado);
+}
+
+p{
+  margin-left: 20px;
+  color: var(--color-parrafo);
+  font-family: var(--font-parrafo);
+}
